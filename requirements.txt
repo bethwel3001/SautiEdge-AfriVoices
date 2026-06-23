@@ -1,0 +1,16 @@
+torch
+torchaudio
+transformers
+datasets
+evaluate
+jiwer
+onnxruntime
+optimum
+audiomentations
+pyyaml
+psutil
+tqdm
+numpy
+pandas
+soundfile
+librosa

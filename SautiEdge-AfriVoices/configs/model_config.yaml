@@ -1,0 +1,19 @@
+model:
+  name: "openai/whisper-small"
+  language_codes: ["swa", "kik", "luo", "som", "mas", "kln"]
+  
+training:
+  batch_size: 16
+  learning_rate: 1e-4
+  epochs: 20
+  lora_rank: 8
+  lora_alpha: 16
+  
+quantization:
+  type: "int8"
+  per_channel: true
+  
+decoding:
+  beam_size: 5
+  lm_weight: 0.8
+  word_score: -0.5

@@ -4,6 +4,7 @@ data/processed/
 *.wav
 *.mp3
 *.flac
+*.opus
 
 # Models & Checkpoints
 checkpoints/
@@ -11,17 +12,20 @@ models/
 *.onnx
 *.pt
 *.bin
+*.pth
 
-# Python & Environment
+# Python
 __pycache__/
 *.pyc
 .env
 venv/
 env/
+.venv/
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Local Simulation
-RUN.md
+# Kaggle
+sample_submission.csv
+submission.csv

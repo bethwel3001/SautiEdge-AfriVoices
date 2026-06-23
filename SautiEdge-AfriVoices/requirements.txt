@@ -1,0 +1,17 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+datasets>=2.14.0
+evaluate>=0.4.0
+jiwer>=3.0.0
+onnxruntime>=1.15.0
+optimum[onnxruntime]>=1.10.0
+kenlm
+audiomentations
+pyyaml
+psutil
+tqdm
+numpy
+pandas
+soundfile
+librosa
